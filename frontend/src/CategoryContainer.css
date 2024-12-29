@@ -1,0 +1,38 @@
+
+.subcategory {
+  width: 1000px;
+  background-color: #D3D8FF;
+  padding: 10px;
+  border: 1px solid #04547A;
+  border-bottom: none;
+}
+
+.subcategory:last-child {
+  border-bottom: 1px solid #04547A;
+}
+
+.subcategory a {
+  text-decoration: none;
+  color: #04547A;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.subthread {
+  width: 1000px;
+  background-color: #F1F4FF;
+  padding: 10px;
+  border: 1px solid #04547A;
+  border-bottom: none;
+}
+
+.subthread:last-child {
+  border-bottom: 1px solid #04547A;
+}
+
+.subthread a {
+  text-decoration: none;
+  color: #04547A;
+  font-weight: bold;
+  margin-left: 20px;
+}

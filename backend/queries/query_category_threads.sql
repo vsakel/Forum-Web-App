@@ -1,0 +1,1 @@
+SELECT * FROM Threads WHERE category_id=?;

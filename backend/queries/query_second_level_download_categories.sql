@@ -1,0 +1,1 @@
+SELECT * FROM Download_categories WHERE parent_category_id IN (SELECT category_id FROM top_level_download_categories);

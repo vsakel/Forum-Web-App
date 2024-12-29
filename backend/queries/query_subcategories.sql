@@ -1,0 +1,1 @@
+SELECT * FROM Categories WHERE parent_category_id=?;

@@ -1,0 +1,1 @@
+SELECT * FROM Categories WHERE parent_category_id IN (SELECT category_id FROM top_level_categories);

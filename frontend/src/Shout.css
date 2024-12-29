@@ -1,0 +1,40 @@
+.marg2{
+    border-top-style:none;
+    border-right-style:solid;
+    border-left-style:solid;
+    border-bottom-style:dotted;
+    top: 90px;
+    right: 0;
+    width: 200px;
+    height: 60px;
+   border-color:#5A7F97;;
+   background-color: #F2F2F2;;
+    
+}
+.header2{
+    background-color:#e9d9d9;;
+}
+.header2::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.dateShout {
+    text-align: right;
+    
+    margin-right:10px;
+    font-size:x-small;
+}
+.usernameShout{
+    float:left;
+    font-weight:bold;
+    margin-left:2px;
+    font-size:small;
+    
+}
+.contentShout{
+    margin-top:5px;
+    margin-right:2px;
+    text-align:left;
+    font-size:smaller;
+}
